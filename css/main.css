@@ -31,7 +31,7 @@ main {
 
 .centered-title {
     background-color: #fdfbff;
-    color: white;
+    color: rgb(8, 8, 8);
     padding: 10px;
     font-size: 2em; /* Adjust size for mobile */
 }
