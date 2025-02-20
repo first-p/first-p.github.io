@@ -1,0 +1,117 @@
+/* Reset some default styles */
+body, h1, h2, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #4B0082;
+    padding: 10px 0;
+    text-align: center;
+    min-height: 20px;
+}
+
+/* Logo styling */
+#acc-logo,
+.footer-logo {
+    width: 110px; /* Adjust as needed for the logo */
+    height: auto;
+}
+
+/* Main content styling */
+main {
+    padding: 15px;
+    text-align: center;
+}
+
+.centered-title {
+    background-color: #fdfbff;
+    color: rgb(8, 8, 8);
+    padding: 10px;
+    font-size: 2em; /* Adjust size for mobile */
+}
+
+.centered-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.club-description {
+    text-align: left;
+    margin: 20px 0;
+}
+
+/* Signup button styling */
+.signup-button {
+    background-color: #4B0082;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* How to play section */
+.how-to-play {
+    margin-top: 30px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #4B0082;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    min-height: 20px;
+}
+
+footer address {
+    font-style: normal;
+    line-height: 1.6;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+    .centered-title {
+        font-size: 2.5em;
+    }
+
+    .signup-button {
+        padding: 15px 30px;
+    }
+
+    #acc-logo,
+    .footer-logo {
+        width: 200px; /* Adjust as needed for larger screens */
+    }
+
+    .club-description {
+        text-align: justify;
+    }
+}
+
+@media (min-width: 1024px) {
+    header, footer {
+        padding: 20px 0;
+    }
+
+    .centered-title {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .club-description, .signup-section, .how-to-play {
+        width: 800px; /* Maximum width for larger screens */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
